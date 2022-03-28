@@ -5,4 +5,14 @@ export const HeaderWrper = styled.header`
   top: 0;
   width: 100%;
   background: gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
+
+export const Icons = styled.div`
+  display: flex;
+  width: 7%;
+  justify-content: space-evenly;
+  align-items: center;
 `;

@@ -16,10 +16,11 @@ export const NavBarWreper = styled.div`
     opacity: 0.9;
     cursor: pointer;
     :hover {
-      background-color: blue;
+      background-color: #b5596585;
+
       ul {
         visibility: visible;
-        opacity: 1;
+        opacity: 0.9;
         z-index: 1;
         transform: translateY(0%);
         transition-delay: 0s, 0s, 0.3s;
@@ -29,9 +30,10 @@ export const NavBarWreper = styled.div`
   ul li ul li {
     :hover {
       a {
-        padding-left: 20px;
-        color: red;
+        padding-left: 10px;
+        // color: blue;
         font-weight: bold;
+        transition-delay: 0s, 0s, 0.3s;
       }
     }
   }
