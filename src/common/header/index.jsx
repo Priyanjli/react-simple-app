@@ -1,16 +1,7 @@
 import React from "react";
 import NavBar from "../navBar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCheckSquare,
-  faCoffee,
-  faShoppingBag,
-  faBatteryFull,
-  faUserCircle,
-  faTrash,
-  faFacebookF
-} from "@fortawesome/fontawesome-free-solid";
-
+import { faUserCircle } from "@fortawesome/fontawesome-free-solid";
 import { HeaderWrper, Icons } from "./ui";
 
 const Header = () => {

@@ -13,14 +13,12 @@ export const NavBarWreper = styled.div`
     height: 50px;
     line-height: 50px;
     text-align: center;
-    opacity: 0.9;
+    opacity: 1;
     cursor: pointer;
     :hover {
-      background-color: #b5596585;
-
       ul {
         visibility: visible;
-        opacity: 0.9;
+        opacity: 1;
         z-index: 1;
         transform: translateY(0%);
         transition-delay: 0s, 0s, 0.3s;

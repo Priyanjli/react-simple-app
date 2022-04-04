@@ -5,20 +5,24 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Header from "./common/header";
 import Footer from "./common/footer";
+import ImageSlider from "./common/ImageSlider";
 
 const App = () => {
   return (
     <>
-      <Header></Header>
-      <main>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/contact" component={Contact} />
-          <Redirect to="/"></Redirect>
-        </Switch>
-      </main>
-      <Footer></Footer>
+      <div className="page-container">
+        <Header></Header>
+        <ImageSlider></ImageSlider>
+        <main>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/contact" component={Contact} />
+            <Redirect to="/"></Redirect>
+          </Switch>
+        </main>
+        <Footer></Footer>
+      </div>
     </>
   );
 };
